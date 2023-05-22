@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TU CAMPER</title>
+    <link rel="stylesheet" href="assets/css/style.css"> <!-- подключение css файла -->
+    <link rel="shortcut icon" href="assets/images/logo_camp.png" type="image/png">
+     <script src="file.js"></script>
+</head>
+    <body>
+     <header> <!-- шапка -->
+      <div id="logo" onclick="slowScroll('top')"><!-- логотип -->
+          <div class="logo2">
+          <img src="assets/images/drobik.png">
+          <p class="logo-name">Аренда прицепа-кемпера</p>
+              </div>
+      </div> 
+       <div id="about"> <!-- атрибуты, а точнее ссылки на нужные блоки -->
+         <a class="knopochka" href="#" title="Главная" onclick="slowScroll('#overiew')">Главная</a>
+         <a class="knopochka" href="#" onclick="slowScroll('#main')" title="Преимущества">Преимущества</a>
+         <a class="knopochka" href="#" onclick="slowScroll('#contacts')" title="Контакты">Контакты</a>
+         <a class="knopochka" href="#" onclick="slowScroll('#faq')" title="Ответы на вопросы">FAQ</a>
+       </div>
+         
+     </header>
+        <div class="menu">
+    <img src="btn.png" class="menu-btn">
+    <nav class="menu-list">
+      <a href="https://www.instagram.com/tucamper.kzn/">Инстаграм</a>
+      <a href="https://vk.com/club213805909">Вконтакте</a>
+      <a href="https://t.me/+79274644007">Телеграмм</a>
+      <a href="mailto:tucamper@bk.ru">Почта</a>
+    </nav>
+            
+  </div>
+        <div id="top">
+        <a href="https://t.me/+79274644007">TU Camper</a>
+            <h3>Путешествуйте по России где угодно!</h3>
+            
+        </div>
+        
+        <div id="main"> <! блок возможностей !>
+         <div class="intro">
+            <img src="assets/images/1.jpg" class="photoger-photo">
+            </div>
+        <div class="text">
+            <h1 class="text-h1">О нас</h1>
+             <span>Мы предлагаем в аренду мини-дом для <br> семейных путешествий. Несмотря на свои <br> компактные размеры это очень комфортный <br> и функциональный дом на колесах </span>
+            <ul class="text-2-spisok">
+                <li>Вы не привязаны к месту во время путешествий</li>
+                <li>Тепло в любое время года</li>
+                <li>Уникальный отдых не только в Республике Татарстан? но и по всей России</li>
+                <li>Минимальные требования к аренде</li>
+                <li>Комфортный семейный отдых обеспечен</li>
+                
+            </ul>
+            </div>
+        </div>
+        
+        <div id="overwiev">
+        <h2>Как выглядит прицеп?</h2>
+        <h4>Все это будет у вас при аренде прицепа-кемпера!</h4>
+            <div class="img">
+            <img src="assets/images/11.jpg" alt="">
+            </div>
+            <div class="img">
+            <img src="assets/images/22.jpg" alt="">
+            </div>
+            <div class="img">
+            <img src="assets/images/33.jpg" alt="">
+            </div>
+            <div class="img">
+            <img src="assets/images/44.jpg" alt="">
+            </div>
+            <div class="img">
+            <img src="assets/images/55.jpg" alt="">
+            </div>
+            <div class="img">
+            <img src="assets/images/66.jpg" alt="">
+            </div>
+            <div class="img">
+            <img src="assets/images/77.jpg" alt="">
+            </div>
+            <div class="img">
+            <img src="assets/images/88.jpg" alt="">
+            </div>
+            <div class="img">
+            <img src="assets/images/99.jpg" alt="">
+            </div>
+        </div>
+       
+        <div id="contacts">
+        <center><h5>Обратная связь пользователя</h5></center>
+        <form id="form_input" action="post.php" method="post" name="form">
+         <label for="name">Имя <span>*</span></label><br>
+         <input type="text" placeholder="Введите ваше имя" name="name" id="name"><br>
+         <label for="tel">Ваш номер телефона<span>*</span></label><br>
+         <input type="tel" placeholder="Ваш номер телефона" name="tel" id="tel" <br><br>
+         <div id="mess_send" class="btn">Отправить</div>
+        </form>
+        </div>
+        
+        <div id="faq">
+        <div>
+        <span class="title">Об условиях</span><br>
+        <span class="heading">Бронирование</span>
+        <p>Для бронирования необходимо внести аванс - 3 000 руб в течение 24 часов после бронирования, иначе оно будет отменено.Возврат аванса возможен при отмене бронирования не менее, чем за 30 дней до начала аренды</p>
+        <span class="heading">Получение</span>
+        <p>В день получения кемпера вносится полная стоимость аренды за вычетом аванса.Также вносится залог - 15 000 руб. Путешествие с кемпером возможно только по территории России и в Республике Крым. Въезд в Абхазию с кемпером - запрет. Аренда кемпера с животными - запрет.</p>
+        <span class="heading">Возврат</span>
+        <p>Точное время возврата прописывается в договоре.
+Опоздание более чем на 1 час считается продлением кемпера на 1 сутки.
+Срок аренды может быть продлен по договоренности по телефону.
+Кемпер должен быть возвращен чистым как снаружи, так и внутри - в том числе, холодильник и газовая плита. За возврат в грязном состоянии удерживается оплата мойки - 2 000 руб.</p>
+        </div>
+            <div>
+        <span class="title">Комплектация</span><br>
+        <span class="heading">Салон</span>
+        <p>Спальное место 146х200 см <br> Детское спальное место <br> 3 подушки, одеяло, плед <br> Москитные сетки, ночные шторы <br> Гирлянда-ночник <br> Розетка-прикуриватель 12V, два USB порта 5V<br>Отопитель, вентиляция</p>
+        <span class="heading">Кухня</span>
+        <p> Раковина (бак чистой воды 40 л., грязной 20л)<br> Освещение и розетка 12V<br> Набор посуды для пикника на 4 персоны<br> Газовая плита и чайник<br> Сковорода и кастрюля<br>Складной стол и стулья <br>Холодильник автомобильный </p>
+        <span class="heading">Экстерьер</span>
+        <p>Маркиза 2х3 м UseRoof<br>Запирание дверей на ключ<br> Уличный диодный свет над обеими дверьми<br>Надежное прицепное устройство<br>Солнечная панель на крыше<br>Бак для дизельного топлива 5 л<br>Подключение к внешней сети 220В с кабелем 10 м</p>
+        </div>
+            <div>
+        <span class="title">Цены (указаны за сутки)</span><br>
+        <span class="heading">При бронировании на 1-2 дня</span>
+        <p>4200 рублей</p>
+        <span class="heading">При бронировании на 3-6 дней</span>
+        <p>3400 рублей</p>
+        <span class="heading">При бронировании от 7 дней</span>
+        <p>2500 рублей</p>
+        </div>
+        </div>
+        
+        <div id="end" onclick="slowScroll('top')" > 
+        <a href="#" > <img src="assets/images/drobik.png" class="logo-end"></a>
+        <a  href="#" class="title-end">Made by L.Yusupova, E.Safina, I.Tumakov, All rights reserved,  2023 year.</a><br>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+        <div classs="animation_vk">
+        <ul class="social">
+        <a href="https://vk.com/club213805909">
+        <li class="social__item1 vk">
+         <i class="fa fa-vk"></i>    
+        </li> 
+        </a>
+        </ul>    
+        </div>
+            
+        <div class="animation_inst">
+        <a href="https://www.instagram.com/tucamper.kzn/">
+        <li class="social__item2 inst">
+         <i class="fa fa-instagram"></i>    
+        </li>
+        </a>      
+        </div>
+        </div>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script>
+         function slowScroll(id) {
+             $('html, body').animate({
+                 scrollTop: $(id).offset().top
+             }, 500);
+         }
+            
+            $(document).on("scroll", function () {
+                if($(window).scrollTop() === 0)
+                    $("header").removeClass("fixed");
+                else
+                    $("header").attr("class", "fixed");
+            });
+        </script>
+        <script type="text/javascript">
+        $('.menu-btn').on('click', function(e) {
+    e.preventDefault();
+    $('.menu').toggleClass('menu_active');
+})
+            </script>
+    </body>
+</html>
